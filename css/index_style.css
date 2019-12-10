@@ -1,0 +1,64 @@
+body
+{
+    font-family: 'segoe ui light';
+}
+.item
+{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.itemDesc
+{
+    position: absolute;
+    bottom:20px;
+    width: 80%;
+    left: 10%;
+    background-color: white;
+    padding:10px;
+}
+.popItemContainer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:0;
+    right: 0;
+    background-color:rgba(190, 194,196, 0.6);
+    display: none;
+}
+.popItemContainer i
+{
+    margin: 9px;
+    font-size: 1.2rem;
+}
+.popItem
+{
+    position: relative;
+}
+#myImg
+{
+    height: 500px;
+}
+.imgControls
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+@media (max-width:600px)
+{
+#myImg
+{
+    height: 400px;
+}
+}
+@media (max-width:420px)
+{
+#myImg
+{
+    height: 260px;
+}
+}
